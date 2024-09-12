@@ -9,7 +9,7 @@ dotenv.config();
 export default defineConfig(
   config,
   getServiceConfig(config, {
-    serviceAuthType: 'ACCESS_TOKEN',    
+    serviceAuthType: 'ENTRA_ID',    
     exposeNetwork: '<loopback>',
     timeout: 30000,
     os: ServiceOS.LINUX,
